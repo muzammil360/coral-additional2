@@ -33,7 +33,13 @@ Correlation between query and each possible subsequence of dataset is computed. 
 - Naive Corr: correlation between query and subsequence found as best match by Naive (should be 1 for inside)
 - Naive Time (s): time taken by Naive online processing (seconds) 
 ### PAA
-Same definations as CORAL
+- index: query no.
+- TSID: time series of subsequence found as best match
+- TStart: offset of subsequence found as best match
+- TEnd: end of subsequence found as best match
+- Corr:  correlation between query and subsequence found as best match
+- Time(S): time taken by Naive online processing (seconds) 
+
 ### JOCOR
 - FileID: query number (same as *index* above except it is 1 based)
 - mi: 0 (see below)
